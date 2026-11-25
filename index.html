@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarfaraz Alam | Python Developer</title>
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <div class="menu-btn" id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-greeting">Hello.</div>
+            <div class="hero-name">I'm Sarfaraz</div>
+            <div class="hero-role">Python Developer</div>
+            <p class="hero-desc">
+                I'm a Python Backend Developer passionate about building scalable, efficient, and reliable backend applications. I specialize in Python, FastAPI, and modern backend technologies, turning complex requirements into clean, maintainable APIs and robust server-side solutions.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Got a project?</a>
+                <a href="resume.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">My resume</a>
+            </div>
+        </div>
+        
+        <div class="hero-image-container">
+            <div class="hero-bg-circle"></div>
+            <!-- Replace src with your actual image path -->
+            <img src="profile.jpg" alt="Sarfaraz Alam" class="hero-img">
+        </div>
+    </section>
+
+    <!-- Skills Ticker -->
+    <div class="skills-bar">
+        <span class="skill-item">Python</span>
+        <span class="skill-item">FastAPI</span>
+        <span class="skill-item">PostgreSQL</span>
+        <span class="skill-item">Docker</span>
+        <span class="skill-item">Redis</span>
+        <span class="skill-item">Git</span>
+        <span class="skill-item">Github</span>
+    </div>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="about-grid">
+            <div class="about-services">
+                <h3><i class="fab fa-python"></i> Python Development</h3>
+                <h3><i class="fas fa-code"></i> REST API Development</h3>
+                <h3><i class="fas fa-database"></i> Database Management</h3>
+            </div>
+            
+            <div class="about-text">
+                <h2>About me</h2>
+                <p>
+                    I'm a Python Backend Developer passionate about building scalable, efficient, and reliable backend applications. I specialize in Python, FastAPI, and modern backend technologies, turning complex requirements into clean, maintainable APIs and robust server-side solutions.
+                </p>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">7+</span>
+                        <span class="stat-label">Skills Aquired</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Completed Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">In Progress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Projects Section -->
+
+<section class="section" id="projects">
+    <div class="projects-header">
+        <h2>Projects</h2>
+        <p class="subtitle">Building backend solutions with Python and modern technologies</p>
+    </div>
+
+<div class="projects-grid">
+    <!-- Event Booking System -->
+    <div class="project-card">
+        <div class="project-content">
+            <h3 class="project-title">⚡ Event Booking System</h3>
+
+            <p class="project-desc">
+                A role-based event booking REST API built with Python and FastAPI.
+                Features PostgreSQL for data persistence, Redis and ARQ for
+                background task processing, Docker for containerization,
+                and Resend for email notifications.
+            </p>
+
+            <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">ARQ</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">uv</span>
+                <span class="tech-tag">Resend</span>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/sarfarazalamgit/event-booking-system"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="link-icon">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2026 Sarfaraz Alam. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/sarfarazalamgit" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/md-sarfaraz-alam-530592432/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a> 
+            <a href="mailto:sarfarazalam@tutamail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
